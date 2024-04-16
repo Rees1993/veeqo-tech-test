@@ -12,17 +12,17 @@ https://www.figma.com/file/hdOgYqRVDH06IwWXkQvZOm/Veeqo-Example-Landing-Page?typ
 
 ## Deployed URL
 
-https://krystal-test.vercel.app/
+https://veeqo-tech-test.vercel.app/
 
 ## What it does
 
-This Remix application hows the user a random dog picture/gif. The user has the option to save this to their favourites, which is then stored in localStroage. There is also an option to show a new dog.
+This Next.js website is a fully responsive copy of the Figma design referenced above.
 
-`new Set()` is used in the application to avoid any duplicate dogs being stored.
+It makes use of the `<Image />` component to render optimised images, and automatically lazy loads unless set otherwise - such as the hero image. Poppins font is brought in and optimised by using `next/font`. Video playback, via modal/dialog, by clicking the play icon on the hero image.
 
 ## URLs
 
-- `/`- Diaplays a random dog
+- `/`- Displays the homepage
 
 ## How to run locally
 
@@ -50,4 +50,10 @@ Then run the app in production mode:
 npm start
 ```
 
-how to run site goes here
+### Future work
+
+- Animations
+  - Hero text
+  - 1000 people icons and text
+- Implement testing, probably E2E
+- Fully convert default Shadcn UI colours
