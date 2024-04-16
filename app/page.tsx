@@ -3,21 +3,14 @@ import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 import mainHero from "@/public/hero-main.jpg";
 
-import imageGrid2 from "@/public/image-grid/Intro-image-2.png";
-import imageGrid3 from "@/public/image-grid/Intro-image-3.png";
-import imageGrid4 from "@/public/image-grid/Intro-image-5.png";
-import imageGrid1 from "@/public/image-grid/Intro-image-6.png";
+import imageGrid1 from "@/public/image-grid/intro-image-1.png";
+import imageGrid2 from "@/public/image-grid/intro-image-2.png";
+import imageGrid3 from "@/public/image-grid/intro-image-3.png";
+import imageGrid4 from "@/public/image-grid/intro-image-4.png";
 
 import featureImg1 from "@/public/feature-image-1.png";
 import featureImg2 from "@/public/feature-image-2.png";
@@ -63,8 +56,8 @@ export default function Home() {
         </svg>
 
         <h1 className="mt-8 max-w-3xl text-4xl font-semibold tracking-[-1%] md:mt-10 md:text-5xl lg:text-6xl xl:text-[4.375rem] xl:leading-[82px]">
-          Own your <span className="text-[#2578FF]">future</span> simple and for{" "}
-          <span className="text-[#2578FF]">free</span>
+          Own your <span className="text-bright-blue">future</span> simple and for{" "}
+          <span className="text-bright-blue">free</span>
         </h1>
         <div className="relative mt-24 grid justify-items-center">
           <div className="absolute inset-0 bg-[#070F17]/20" />
@@ -132,7 +125,7 @@ export default function Home() {
             </p>
 
             <p className="[&:not(:first-child)]:mt-6">
-              As part of the Amazon family, <span className="text=[#2578FF]">Veeqo</span> provides
+              As part of the Amazon family, <span className="text-bright-blue">Veeqo</span> provides
               trusted data security and Amazon account protection from late deliveries and negative
               feedback, if you ship on time.
             </p>
@@ -141,15 +134,15 @@ export default function Home() {
       </section>
 
       {/* Image Grid */}
-      <section className="container mt-20 flex max-w-none items-end justify-center gap-9 overflow-hidden pb-2 md:mt-32 lg:mt-60">
-        <Image src={imageGrid1} className="md:pb-8" alt="" />
+      <section className="mt-20 flex max-w-none items-end justify-center gap-9 overflow-hidden pb-2 md:mt-32 lg:mt-60">
+        <Image src={imageGrid1} className="md:pb-8" layout="" alt="" />
         <Image src={imageGrid2} className="md:self-start" alt="" />
         <Image src={imageGrid3} className="md:pb-8" alt="" />
         <Image src={imageGrid4} alt="" />
       </section>
 
       {/* Start saving */}
-      <section className="bg-white py-20 text-[#05192D] md:py-28 lg:py-36">
+      <section className="text-oxford-blue bg-white py-20 md:py-28 lg:py-36">
         <div className="container grid items-center gap-20 md:grid-cols-2">
           <div className="max-w-lg">
             <Badge>Start saving today</Badge>
@@ -172,7 +165,7 @@ export default function Home() {
         <div className="grid gap-12 md:grid-cols-2">
           <div className="flex flex-col xl:pt-64">
             <Badge className="self-start" variant="light">
-              We're a team of
+              We&apos;re a team of
             </Badge>
             <h2 className="mt-10 break-words text-5xl font-semibold tracking-[-3%] md:mt-16 md:text-8xl lg:mt-20 lg:text-9xl xl:text-[12.5rem] xl:leading-[11rem]">
               1,000 People
@@ -192,7 +185,7 @@ export default function Home() {
           <div className="md:basis-2/12 lg:basis-5/12"></div>
           <ul className="grid max-w-2xl gap-16 sm:grid-cols-2 md:basis-full md:gap-24 lg:gap-32">
             <li className="flex flex-col gap-6">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#2578FF] md:h-20 md:w-20">
+              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 53 54"
@@ -223,7 +216,7 @@ export default function Home() {
               </p>
             </li>
             <li className="flex flex-col gap-6">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#2578FF] md:h-20 md:w-20">
+              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 44 44"
@@ -254,7 +247,7 @@ export default function Home() {
               </p>
             </li>
             <li className="flex flex-col gap-6">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#2578FF] md:h-20 md:w-20">
+              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 44 44"
@@ -285,7 +278,7 @@ export default function Home() {
               </p>
             </li>
             <li className="flex flex-col gap-6">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#2578FF] md:h-20 md:w-20">
+              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 44 44"
@@ -316,7 +309,7 @@ export default function Home() {
               </p>
             </li>
             <li className="flex flex-col gap-6">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#2578FF] md:h-20 md:w-20">
+              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 44 44"
@@ -347,7 +340,7 @@ export default function Home() {
               </p>
             </li>
             <li className="flex flex-col gap-6">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#2578FF] md:h-20 md:w-20">
+              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 44 44"
@@ -382,7 +375,7 @@ export default function Home() {
       </section>
 
       {/* How much save */}
-      <section className="bg-white py-20 text-[#05192D] md:py-28 lg:py-36">
+      <section className="text-oxford-blue bg-white py-20 md:py-28 lg:py-36">
         <div className="container mx-auto grid items-center gap-20 md:grid-cols-2">
           <Image src={featureImg2} className="max max-md:order-1" alt="" />
 
