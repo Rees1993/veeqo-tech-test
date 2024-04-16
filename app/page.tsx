@@ -151,7 +151,7 @@ export default function Home() {
       {/* Start saving */}
       <section className="bg-white py-20 text-[#05192D] md:py-28 lg:py-36">
         <div className="container grid items-center gap-20 md:grid-cols-2">
-          <div className="md:max-w-md">
+          <div className="max-w-lg">
             <Badge>Start saving today</Badge>
             <h2 className="mt-10 text-3xl font-semibold tracking-[-1%] md:text-4xl lg:text-5xl lg:leading-[56px]">
               See how much you could save
@@ -386,9 +386,9 @@ export default function Home() {
         <div className="container mx-auto grid items-center gap-20 md:grid-cols-2">
           <Image src={featureImg2} className="max max-md:order-1" alt="" />
 
-          <div className="max-w-md">
+          <div className="max-w-lg">
             <Badge>Start saving today</Badge>
-            <h2 className="mt-10 text-4xl font-semibold tracking-[-1%] md:text-5xl md:leading-[56px]">
+            <h2 className="mt-10 text-3xl font-semibold tracking-[-1%] md:text-4xl lg:text-5xl lg:leading-[56px]">
               See how much you could save
             </h2>
             <div className="mt-10 text-lg font-medium ">
