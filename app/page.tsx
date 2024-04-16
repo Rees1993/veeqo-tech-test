@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <main className="grow">
       {/* Hero */}
-      <section className="container my-20 flex flex-col items-center text-center md:my-28 lg:my-36">
+      <section className="container my-20 flex flex-col items-center text-center md:my-24 lg:my-32">
         <svg fill="none" viewBox="0 0 221 137" className="h-24 w-auto md:h-32">
           <circle
             cx="55"
@@ -62,7 +62,7 @@ export default function Home() {
           ></path>
         </svg>
 
-        <h1 className="mt-8 max-w-3xl text-4xl font-semibold tracking-[-1%] md:text-5xl lg:text-6xl xl:text-[4.375rem] xl:leading-[82px]">
+        <h1 className="mt-8 max-w-3xl text-4xl font-semibold tracking-[-1%] md:mt-10 md:text-5xl lg:text-6xl xl:text-[4.375rem] xl:leading-[82px]">
           Own your <span className="text-[#2578FF]">future</span> simple and for{" "}
           <span className="text-[#2578FF]">free</span>
         </h1>
@@ -141,7 +141,7 @@ export default function Home() {
       </section>
 
       {/* Image Grid */}
-      <section className="mt-20 flex max-w-none items-end justify-center gap-9 overflow-hidden pb-2 md:mt-32 lg:mt-60">
+      <section className="container mt-20 flex max-w-none items-end justify-center gap-9 overflow-hidden pb-2 md:mt-32 lg:mt-60">
         <Image src={imageGrid1} className="md:pb-8" alt="" />
         <Image src={imageGrid2} className="md:self-start" alt="" />
         <Image src={imageGrid3} className="md:pb-8" alt="" />
@@ -149,8 +149,8 @@ export default function Home() {
       </section>
 
       {/* Start saving */}
-      <section className="bg-white px-4 py-20 text-[#05192D] md:py-28 lg:py-36">
-        <div className="mx-auto grid max-w-7xl items-center gap-20 md:grid-cols-2">
+      <section className="bg-white py-20 text-[#05192D] md:py-28 lg:py-36">
+        <div className="container grid items-center gap-20 md:grid-cols-2">
           <div className="md:max-w-md">
             <Badge>Start saving today</Badge>
             <h2 className="mt-10 text-3xl font-semibold tracking-[-1%] md:text-4xl lg:text-5xl lg:leading-[56px]">
@@ -168,28 +168,28 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto my-20 max-w-[96rem] px-4 md:my-28 lg:my-36">
+      <section className="container mx-auto my-20 max-w-[96rem] md:my-28 lg:my-36">
         <div className="grid gap-12 md:grid-cols-2">
-          <div className="flex flex-col md:pt-64">
+          <div className="flex flex-col xl:pt-64">
             <Badge className="self-start" variant="light">
               We're a team of
             </Badge>
-            <h2 className="mt-10 break-words text-5xl font-semibold tracking-[-3%] md:mt-20 md:leading-[11rem] xl:text-[12.5rem]">
+            <h2 className="mt-10 break-words text-5xl font-semibold tracking-[-3%] md:mt-16 md:text-8xl lg:mt-20 lg:text-9xl xl:text-[12.5rem] xl:leading-[11rem]">
               1,000 People
             </h2>
           </div>
-          <div className="hidden grid-cols-2 content-start justify-center justify-items-center gap-6 md:grid md:pl-16">
+          <div className="hidden grid-cols-2 content-start justify-center justify-items-center gap-6 md:grid lg:pl-16">
             <Image
-              className="col-span-2 h-56 w-56 justify-self-center object-contain"
+              className="col-span-2 h-44 w-44 justify-self-center object-contain lg:h-56 lg:w-56"
               src={teamPhoto2}
               alt=""
             />
             <Image className="object-contain" src={teamPhoto1} alt="" />
-            <Image className="h-44 w-44 object-contain" src={teamPhoto3} alt="" />
+            <Image className="h-32 w-32 object-contain lg:h-44 lg:w-44" src={teamPhoto3} alt="" />
           </div>
         </div>
         <div className="mt-16 flex md:mt-24 lg:mt-32">
-          <div className="md:basis-5/12"></div>
+          <div className="md:basis-2/12 lg:basis-5/12"></div>
           <ul className="grid max-w-2xl gap-16 sm:grid-cols-2 md:basis-full md:gap-24 lg:gap-32">
             <li className="flex flex-col gap-6">
               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#2578FF] md:h-20 md:w-20">
@@ -382,8 +382,8 @@ export default function Home() {
       </section>
 
       {/* How much save */}
-      <section className="bg-white px-4 py-20 text-[#05192D] md:py-28 lg:py-36">
-        <div className="mx-auto grid max-w-7xl items-center gap-20 md:grid-cols-2">
+      <section className="bg-white py-20 text-[#05192D] md:py-28 lg:py-36">
+        <div className="container mx-auto grid items-center gap-20 md:grid-cols-2">
           <Image src={featureImg2} className="max max-md:order-1" alt="" />
 
           <div className="max-w-md">
