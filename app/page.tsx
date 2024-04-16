@@ -5,19 +5,19 @@ import { Button } from "@/components/ui/button";
 
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
-import mainHero from "@/public/hero-main.jpg";
+import mainHero from "@/app/assets/hero-main.jpg";
 
-import imageGrid1 from "@/public/image-grid/intro-image-1.png";
-import imageGrid2 from "@/public/image-grid/intro-image-2.png";
-import imageGrid3 from "@/public/image-grid/intro-image-3.png";
-import imageGrid4 from "@/public/image-grid/intro-image-4.png";
+import imageGrid1 from "@/app/assets/image-grid/intro-image-1.png";
+import imageGrid2 from "@/app/assets/image-grid/intro-image-2.png";
+import imageGrid3 from "@/app/assets/image-grid/intro-image-3.png";
+import imageGrid4 from "@/app/assets/image-grid/intro-image-4.png";
 
-import featureImg1 from "@/public/feature-image-1.png";
-import featureImg2 from "@/public/feature-image-2.png";
+import featureImg1 from "@/app/assets/feature-image-1.png";
+import featureImg2 from "@/app/assets/feature-image-2.png";
 
-import teamPhoto1 from "@/public/team-photos/Image-1.png";
-import teamPhoto2 from "@/public/team-photos/Image-2.png";
-import teamPhoto3 from "@/public/team-photos/Image-3.png";
+import teamPhoto1 from "@/app/assets/team-photos/Image-1.png";
+import teamPhoto2 from "@/app/assets/team-photos/Image-2.png";
+import teamPhoto3 from "@/app/assets/team-photos/Image-3.png";
 
 export default function Home() {
   return (
