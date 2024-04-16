@@ -52,7 +52,8 @@ npm start
 
 ### Future work
 
-- Animations
+- Componentise parts that are used often
+- Animations for the following:
   - Hero text
   - 1000 people icons and text
 - Implement testing, probably E2E
