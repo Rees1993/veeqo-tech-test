@@ -61,7 +61,13 @@ export default function Home() {
         </h1>
         <div className="relative mt-24 grid justify-items-center">
           <div className="absolute inset-0 bg-[#070F17]/20" />
-          <Image className="col-start-1 row-start-1 rounded-3xl" src={mainHero} alt="Team Photo" />
+          <Image
+            className="col-start-1 row-start-1 rounded-3xl"
+            loading="eager"
+            fetchPriority="high"
+            src={mainHero}
+            alt="Team Photo"
+          />
 
           <Dialog>
             <DialogTrigger asChild>
