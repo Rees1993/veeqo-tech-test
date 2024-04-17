@@ -71,7 +71,7 @@ export default function Home() {
 
           <Dialog>
             <DialogTrigger asChild>
-              <div className="isolate col-start-1 row-start-1 flex h-28 w-28 cursor-pointer items-center justify-center self-center rounded-full bg-white">
+              <div className="isolate col-start-1 row-start-1 flex h-20 w-20 cursor-pointer items-center justify-center self-center rounded-full bg-white md:h-24 md:w-24 lg:h-28 lg:w-28">
                 <svg
                   width="59"
                   height="59"
@@ -148,7 +148,7 @@ export default function Home() {
       </section>
 
       {/* Start saving */}
-      <section className="text-oxford-blue bg-white py-20 md:py-28 lg:py-36">
+      <section className="bg-white py-20 text-oxford-blue md:py-28 lg:py-36">
         <div className="container grid items-center gap-20 md:grid-cols-2">
           <div className="max-w-lg">
             <Badge>Start saving today</Badge>
@@ -191,7 +191,7 @@ export default function Home() {
           <div className="md:basis-2/12 lg:basis-5/12"></div>
           <ul className="grid max-w-2xl gap-16 sm:grid-cols-2 md:basis-full md:gap-24 lg:gap-32">
             <li className="flex flex-col gap-6">
-              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-bright-blue md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 53 54"
@@ -222,7 +222,7 @@ export default function Home() {
               </p>
             </li>
             <li className="flex flex-col gap-6">
-              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-bright-blue md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 44 44"
@@ -253,7 +253,7 @@ export default function Home() {
               </p>
             </li>
             <li className="flex flex-col gap-6">
-              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-bright-blue md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 44 44"
@@ -284,7 +284,7 @@ export default function Home() {
               </p>
             </li>
             <li className="flex flex-col gap-6">
-              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-bright-blue md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 44 44"
@@ -315,7 +315,7 @@ export default function Home() {
               </p>
             </li>
             <li className="flex flex-col gap-6">
-              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-bright-blue md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 44 44"
@@ -346,7 +346,7 @@ export default function Home() {
               </p>
             </li>
             <li className="flex flex-col gap-6">
-              <div className="bg-bright-blue flex h-14 w-14 items-center justify-center rounded-full md:h-20 md:w-20">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-bright-blue md:h-20 md:w-20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 44 44"
@@ -381,7 +381,7 @@ export default function Home() {
       </section>
 
       {/* How much save */}
-      <section className="text-oxford-blue bg-white py-20 md:py-28 lg:py-36">
+      <section className="bg-white py-20 text-oxford-blue md:py-28 lg:py-36">
         <div className="container mx-auto grid items-center gap-20 md:grid-cols-2">
           <Image src={featureImg2} className="max max-md:order-1" alt="" />
 
